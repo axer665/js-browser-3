@@ -1,4 +1,4 @@
-.dropdown {
+.dropdown, .dropdown2, #dropdownId {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -33,6 +33,7 @@
   border: 1px solid gray;
   border-bottom: none;
   border-radius: 4px;
+  z-index: 1;
 }
 
 .dropdown__link {
